@@ -1,0 +1,6 @@
+.DS_STORE
+
+/note
+/vendor
+/node_modules
+/bower_packages
