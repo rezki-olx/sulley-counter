@@ -130,8 +130,8 @@ $(document).ready(function() {
     var futureDate  = new Date(currentDate.getFullYear() + 1, 0, 1);
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 
-    $('.countdown_mp3').trigger('load');
-    $('.happy_mp3').trigger('load');
+    // $('.countdown_mp3').trigger('load');
+    // $('.happy_mp3').trigger('load');
 
     clock = $clock.FlipClock(diff, {
         clockFace: 'DailyCounter',
@@ -181,7 +181,7 @@ function celebrate()
         timeout = setTimeout(bounce, interval);
     }, 350);
 
-    $('.happy_mp3').trigger('play');
+    // $('.happy_mp3').trigger('play');
 }
 
 function pulse()

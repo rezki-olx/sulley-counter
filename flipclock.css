@@ -39,7 +39,7 @@
 .flip-clock-wrapper {
   font: normal 11px "Helvetica Neue", Helvetica, sans-serif;
   color: #555;
-  z-index: 10;
+  z-index: 40;
   -webkit-user-select: none; }
 
 .flip-clock-meridium {
@@ -51,15 +51,17 @@
 
 .flip-clock-wrapper {
   text-align: center;
-  width: 690px;
+  width: 620px;
   margin: 0 auto;
   height: 100px;
   position: absolute;
-  top: 0;
+  top: 50%;
   bottom: 0;
-  left: 0;
+  left: 50%;
   right: 0;
-  margin: auto;
+  margin: 0;
+
+  margin: -50px 0 0 -310px;
 }
 
 .flip-clock-wrapper:before,
