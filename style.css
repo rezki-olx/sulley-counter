@@ -110,7 +110,7 @@ canvas {
 }
 
 .clouds{
-    background:transparent url(img/clouds2.png) repeat top center;
+    background:transparent url(img/clouds4.png) repeat top center;
     z-index:13;
 
     -moz-animation:move-clouds-back 200s linear infinite;
