@@ -12,6 +12,11 @@ html, body {
     padding: 0;
     
 }
+
+body > .wrapper {
+    z-index: 999;
+}
+
 .message
 {
     font-family: 'Helvetica', sans-serif;
